@@ -17,7 +17,7 @@ color: rgb(12, 151, 161);
 
 /* Suvol d'un paragraph rouge */
 p:hover {
-    color: rgb(231, 8, 8)
+    background-color: red;
     }
 
 /* 1er lettrine des paragraph */
@@ -36,4 +36,13 @@ p::first-letter {
     -serif
     ;
     }
-    h1::content {:url('ok.png');}  
+
+    h1::before {
+        content: ""; 
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+        background-image: url('ok.png');
+        background-size: cover;}  
+       
