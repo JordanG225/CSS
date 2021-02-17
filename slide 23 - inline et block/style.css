@@ -1,0 +1,18 @@
+/* Inline */
+b {
+    border: 1px solid red;
+    
+    }
+span {
+    background: rgb(255, 0, 128);
+    
+    }
+/* block*/
+p {
+    border: 1px solid green;
+}
+
+div {
+    background: hotpink;
+}
+   
