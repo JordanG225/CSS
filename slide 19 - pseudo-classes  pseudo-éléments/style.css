@@ -1,0 +1,39 @@
+/* Tous les liens */
+a {
+    color: rgb(240, 198, 10);
+    }
+
+    /* Au survol d'un lien */
+a:hover {
+    color: rgb(4, 128, 0);
+    font-size: 1.5em;
+    }
+
+
+/* Un lien déjà visité */
+a:visited {
+color: rgb(12, 151, 161);
+}
+
+/* Suvol d'un paragraph rouge */
+p:hover {
+    color: rgb(231, 8, 8)
+    }
+
+/* 1er lettrine des paragraph */
+p::first-letter {
+    color: rgb(4, 128, 0);
+    font-size: 1.8em;
+    }
+
+/* selection del'utilisateur */
+
+::selection {
+    background-color: rgb(6, 6, 160)
+    ;
+    font
+    -family: sans
+    -serif
+    ;
+    }
+    h1::content {:url('ok.png');}  

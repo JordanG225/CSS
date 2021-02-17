@@ -1,0 +1,29 @@
+body, div {
+    color:black;
+    background-color: rgba(236, 234, 232, 0.692);
+
+}
+
+#conteneur p {
+    color: rgb(241, 7, 7);
+}
+
+#conteneur > p {
+    font-weight: bold;
+}
+
+#conteneur h2 + p {
+    color: darkgreen;
+}
+h2 + p{
+    text-transform: uppercase;
+}
+code + p {
+    color: darksalmon;
+}
+h1+ div {
+    border: 1px solid green;
+    border-bottom: solid purple;
+    border-color: green;
+    border-width: 1px; */
+}
