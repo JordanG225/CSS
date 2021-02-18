@@ -1,0 +1,10 @@
+div {
+    width: 500px;
+    background-color: brown;
+
+}
+h2{
+    width: 400px;
+   background-color: rgb(240, 236, 8);
+     border: 2px solid rgb(255, 136, 0);
+}
